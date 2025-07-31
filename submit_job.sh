@@ -1,8 +1,8 @@
 #$ -S /bin/bash
 
-#$ -o test.out
+#$ -o ucl-mnist.out
 
-#$ -e test.err
+#$ -e ucl-mnist.err
 
 #$ -V # Import the user's environment variables
 
@@ -11,7 +11,7 @@
 #$ -cwd # Current working directory
 
 # Job name
-#$ -N test
+#$ -N ucl-mnist
 
 #$ -l gpu=true,gpu_type=!(gtx1080ti|rtx2080ti|titanx)
 
@@ -35,5 +35,5 @@ echo "CPUs              :  $cpus"
 echo "--------------------------------------"
 
 source /share/apps/source_files/cuda/cuda-11.8.source
-conda activate test
+conda activate ucl-mnist
 python main.py
