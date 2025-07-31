@@ -1,0 +1,18 @@
+# requirements.txt
+
+# PyTorch wheels for CUDA 11.8
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# core libraries
+torch==2.6.0
+torchvision
+torchaudio
+numpy>=1.0,<2.0
+
+# higher-level frameworks & tools
+lightning
+wandb
+timm
+pandas
+scikit-learn
+matplotlib
