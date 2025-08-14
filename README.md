@@ -36,3 +36,9 @@ A minimal template for training an **MNIST** classifier on the UCL High-Performa
 2. **Submit**
 
         qsub submit_job.sh
+
+---
+
+## For Further Usage
+
+For more advanced usage and examples, please refer to [this document](https://www.notion.so/keane-ai-group/Using-the-CMIC-Cluster-851c9ae24f0249608d0d814be580800a?source=copy_link).
